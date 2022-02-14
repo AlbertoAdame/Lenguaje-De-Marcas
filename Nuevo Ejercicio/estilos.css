@@ -1,0 +1,4 @@
+p a {color: red;}
+/* p > a {color: green;} */
+h2 { color: green; }
+ h1 + h2 { color: purple } /*lo coge el h2 si va justo despúes del h1 */

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+    body{padding: 0; margin: 0;}
+    #contenedor{background-color:rgb(199, 107, 107); height: 1200px; width: 100%;}
+    #arriba { background-color: rgb(173, 77, 77); margin: 0; width: 100%; padding-left: 10px;}
+    button.botonesArriba { 
+        background:rgb(179, 82, 82) ;
+        box-shadow: 0 20px 20px rgba(0, 0, 0, 0.116), 0 8px 16px rgba(0, 0, 0, 0.116) ;
+        border-radius: 8px; 
+        padding: 35px; 
+        border-style: none; 
+        float: left;
+        position: absolute;
+        top: 5px;
+        font-size: 40px; 
+        font-weight:900; 
+        cursor: pointer;
+    }
+    button.botonesArriba:hover { 
+        background:rgb(146, 63, 63) ;
+        box-shadow: 0 20px 20px rgba(0, 0, 0, 0.116), 0 8px 16px rgba(0, 0, 0, 0.116) ;
+        border-radius: 8px; 
+        padding: 35px; 
+        border-style: none; 
+        font-size: 40px; 
+        font-weight:900; 
+        cursor: pointer;
+    }
+
+        button.botonesArribaDerecha { 
+        background:rgb(179, 82, 82) ;
+        box-shadow: 0 20px 20px rgba(0, 0, 0, 0.116), 0 8px 16px rgba(0, 0, 0, 0.116) ;
+        border-radius: 8px; 
+        padding: 35px; 
+        border-style: none; 
+        position: absolute;
+        right: 20px;
+        top: 5px;
+        font-size: 40px; 
+        font-weight:900; 
+        cursor: pointer;
+    }
+
+    button.botonesArribaDerecha:hover { 
+        background:rgb(146, 63, 63) ;
+        box-shadow: 0 20px 20px rgba(0, 0, 0, 0.116), 0 8px 16px rgba(0, 0, 0, 0.116) ;
+        border-radius: 8px; 
+        padding: 35px; 
+        border-style: none; 
+        float: right;
+        font-size: 40px; 
+        font-weight:900; 
+        cursor: pointer;
+    }
+
+    p{       
+        font-size: 40px; 
+        font-weight:900;
+        padding: 0; 
+        margin: 0; 
+        margin-top: 1em;
+        border-collapse: collapse;
+        border-color: black;
+        text-align: center;
+    }
+    #izquierda {
+        background-color: rgba(0, 0, 0, 0.37);
+        margin-top: 3.5em;
+        padding: 1em;
+        padding-left: 0.5em;
+        width: 8em;
+        height: 600px;
+        font-size: 20px; 
+        font-weight:600; 
+        float: left;
+    }
+    #miniContenedor{
+        margin-top:10em ;
+ 
+        float: left;
+
+    }
+    #miniIzquierda{
+
+        float: left;
+        margin: 20px;
+        margin-left: 50px;
+    }
+    #miniDerecha{
+        width: 5em;
+        float: left;
+        margin: 20px;
+    }
+    img {
+        width: 30em;
+    }
+    #abajo{
+        clear: both;
+
+        height: 3.5em;
+        background-color: rgba(0, 0, 0, 0.637);
+        text-align: center; 
+        padding-top: 2.5em;
+        color: white;
+        border-radius: 8px;
+        
+    }
+
+
+    </style>
+</head>
+<body>
+    <form action="" method="get"></form>
+    <div id="contenedor">
+        <div id="arriba">
+            <button type="submit" class="botonesArriba">Home</button>
+            <p>Hola</p>
+            <button type="submit" class="botonesArribaDerecha">Contact</button>
+            
+        </div>
+        <div id="izquierda">
+            <ol>
+                <li>Uno</li>
+                <li>Dos</li>
+                <li>Tres</li>
+            </ol>
+        </div>
+        <div id="miniContenedor">
+            <div id="miniIzquierda">
+                <img src="Cara.JPG">
+            </div>
+            <div id="miniDerecha">
+                <img src="Da Vinci.jpg" alt="">
+            </div>
+            
+        </div>
+        <input type="text" value="" placeholder="Escribe algo">
+        
+    <div id="abajo"> ESTO SOLO ES NUESTRO PIÉ DE PÁGINA
+
+    </div>
+
+
+
+
+
+
+
+
+    </div>
+    
+</body>
+</html>
